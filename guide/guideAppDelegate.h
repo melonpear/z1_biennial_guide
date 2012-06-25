@@ -10,6 +10,7 @@
 
 @interface guideAppDelegate : NSObject <UIApplicationDelegate> {
     NSArray *programcategoriesA;
+    NSDictionary *programsDictionary;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -18,6 +19,7 @@
 
 // zero1 objects
 @property (nonatomic, retain) NSArray *programcategoriesA;
+@property (nonatomic, retain) NSDictionary *programsDictionary;
 
 
 @end

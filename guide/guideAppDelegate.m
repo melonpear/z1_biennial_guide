@@ -12,7 +12,7 @@
 
 @synthesize window = _window;
 @synthesize navigationController = _navigationController;
-@synthesize programcategoriesA;
+@synthesize programcategoriesA,programsDictionary;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,8 +21,17 @@
     
     
     // setup objects we need for entire app
-    programcategoriesA = [[NSArray alloc] initWithObjects:@"Exhibits",@"Artists",@"Public Art",@"Events", nil];
+    // using exhibit progs as sample for other cats
+    // this should be a data call to API 
     
+    NSArray *exhibitProgs = [[NSArray alloc] initWithObjects:@"Seeking Silicon Valley",@"Dead Drops", nil];
+    self.programsDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:
+                          exhibitProgs,@"Exhibits",
+                          exhibitProgs,@"Artists",
+                          exhibitProgs,@"Public Art",
+                          nil];
+    
+    self.programcategoriesA = [programsDictionary allKeys];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -72,6 +81,7 @@
     [_window release];
     [_navigationController release];
     [programcategoriesA release];
+    [programsDictionary release];
     [super dealloc];
 }
 

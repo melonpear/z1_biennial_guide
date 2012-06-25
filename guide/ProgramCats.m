@@ -8,6 +8,7 @@
 
 #import "ProgramCats.h"
 #import "guideAppDelegate.h"
+#import "Programs.h"
 
 @implementation ProgramCats
 @synthesize progcats;
@@ -97,13 +98,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+     Programs *pvc = [[Programs alloc] initWithNibName:@"Programs" bundle:nil];
+    NSString *prog = [self.progcats objectAtIndex:indexPath.row];
+    pvc.program = prog;
+     [self.navigationController pushViewController:pvc animated:YES];
+    [pvc release];
 }
 
 #pragma mark - View lifecycle

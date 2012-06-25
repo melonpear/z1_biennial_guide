@@ -18,6 +18,10 @@
 		EDF7FEFB1598EA9A0011588E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF7FEF91598EA9A0011588E /* RootViewController.xib */; };
 		EDF7FF041598EC7F0011588E /* ProgramCats.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF7FF021598EC7F0011588E /* ProgramCats.m */; };
 		EDF7FF051598EC7F0011588E /* ProgramCats.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF7FF031598EC7F0011588E /* ProgramCats.xib */; };
+		EDF7FF091598F0870011588E /* Programs.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF7FF071598F0860011588E /* Programs.m */; };
+		EDF7FF0A1598F0870011588E /* Programs.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF7FF081598F0860011588E /* Programs.xib */; };
+		EDF7FF0E1598F4350011588E /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF7FF0C1598F4350011588E /* Detail.m */; };
+		EDF7FF0F1598F4350011588E /* Detail.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF7FF0D1598F4350011588E /* Detail.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,12 @@
 		EDF7FF011598EC7F0011588E /* ProgramCats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramCats.h; sourceTree = "<group>"; };
 		EDF7FF021598EC7F0011588E /* ProgramCats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramCats.m; sourceTree = "<group>"; };
 		EDF7FF031598EC7F0011588E /* ProgramCats.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramCats.xib; sourceTree = "<group>"; };
+		EDF7FF061598F0860011588E /* Programs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programs.h; sourceTree = "<group>"; };
+		EDF7FF071598F0860011588E /* Programs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programs.m; sourceTree = "<group>"; };
+		EDF7FF081598F0860011588E /* Programs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Programs.xib; sourceTree = "<group>"; };
+		EDF7FF0B1598F4350011588E /* Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
+		EDF7FF0C1598F4350011588E /* Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
+		EDF7FF0D1598F4350011588E /* Detail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Detail.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,12 @@
 				EDF7FF011598EC7F0011588E /* ProgramCats.h */,
 				EDF7FF021598EC7F0011588E /* ProgramCats.m */,
 				EDF7FF031598EC7F0011588E /* ProgramCats.xib */,
+				EDF7FF061598F0860011588E /* Programs.h */,
+				EDF7FF071598F0860011588E /* Programs.m */,
+				EDF7FF081598F0860011588E /* Programs.xib */,
+				EDF7FF0B1598F4350011588E /* Detail.h */,
+				EDF7FF0C1598F4350011588E /* Detail.m */,
+				EDF7FF0D1598F4350011588E /* Detail.xib */,
 				EDF7FEE81598EA9A0011588E /* Supporting Files */,
 			);
 			path = guide;
@@ -163,6 +179,8 @@
 				EDF7FEF51598EA9A0011588E /* MainWindow.xib in Resources */,
 				EDF7FEFB1598EA9A0011588E /* RootViewController.xib in Resources */,
 				EDF7FF051598EC7F0011588E /* ProgramCats.xib in Resources */,
+				EDF7FF0A1598F0870011588E /* Programs.xib in Resources */,
+				EDF7FF0F1598F4350011588E /* Detail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +195,8 @@
 				EDF7FEF21598EA9A0011588E /* guideAppDelegate.m in Sources */,
 				EDF7FEF81598EA9A0011588E /* RootViewController.m in Sources */,
 				EDF7FF041598EC7F0011588E /* ProgramCats.m in Sources */,
+				EDF7FF091598F0870011588E /* Programs.m in Sources */,
+				EDF7FF0E1598F4350011588E /* Detail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
